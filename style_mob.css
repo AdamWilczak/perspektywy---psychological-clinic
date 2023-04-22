@@ -1,0 +1,128 @@
+@media screen and (max-width: 800px) {
+h2 {
+  font-size: 16px; font-weight: 400;
+}
+
+.logotop {
+  height: 50px;
+}
+
+.button_kontakt {
+  display: none;
+}
+
+/* burgerbutton style */
+.burger {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;      
+  }
+   
+.line {
+  fill: none;
+  stroke: var(--blue);
+  stroke-width: 3;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+  stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 3;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 3;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 3;
+}
+.active .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 3;
+}
+.active .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 3;
+}
+.active .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 3;
+}
+
+/*menu style*/
+
+.menu ul {
+  display: none;
+}
+
+/*menu burger style*/
+
+.menuburg.active {
+  display: block;
+}
+
+/* OFRTA  */
+
+.accordion {
+  flex-direction: column;
+  height: 700px;
+  box-shadow: none;
+}
+
+.box {
+  box-shadow: none;
+}
+
+.box:hover {
+  flex: 7;
+}
+
+.zakres {
+  flex-direction: column;
+  width: 90vw;
+}
+
+.button_zakres {
+  flex-direction: column;
+  width: 90vw;
+}
+
+.kontener_kontakt {
+  flex-direction: column;
+}
+
+.prawy_opis{
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.kontener_dane{
+  flex-direction: column;
+}
+
+.kontener_dane p{
+  font-size: 12px;
+}
+
+.kontener_dane a{
+  font-size: 12px;
+}
+
+.card {
+  width: 100vw;
+  border: solid 10px #3B5DF0;
+  border-bottom: none;
+}
+
+
+}
