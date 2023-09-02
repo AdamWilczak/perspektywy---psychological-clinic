@@ -290,7 +290,7 @@ z-index: 100;
 
 
 #welcome {
-  background-image: url(img/Component\ 1\ –\ 1.png);
+  background-image: url(img/Component1.png);
   background-repeat: no-repeat;
   background-size: fill;
   background-position: center;
@@ -314,6 +314,7 @@ z-index: 100;
   
  
 }
+
 .txt_welcome {
   display: flex;
   flex-direction: column;
@@ -569,6 +570,35 @@ zakres pomocy
 }
 
 
+
+
+
+
+/* arykuły */
+
+#Articles{
+  background-color: #dfddd9;
+}
+
+.accordion2 img{
+  width: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 anna i joanna
   */
@@ -654,7 +684,7 @@ anna i joanna
   overflow: hidden;
   line-height: 200%;
   max-height: 1s ease-out;
-  
+  text-align:justify;
   
   
   
