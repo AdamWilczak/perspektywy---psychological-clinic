@@ -11,12 +11,12 @@ body {
  
 }
 :root{
-  --yelow: #f1ead8;
-  --black: #212121;
-  --blue: #3B5DF0;
+  --yelow: #fcfcfc;
+  --black: #180155;
+  --blue: #061f8f;
   --withe: #ffffff;
   --red:#9E274A;
-  --grey:#F2F5FF;
+  --grey:#d3d4d6;
 
 
 
@@ -92,6 +92,7 @@ z-index: 100;
   stroke-width: 4px;
   opacity: 0.8;
   height: 80px;
+  margin-bottom: 5px;
  
 }
 
@@ -290,16 +291,14 @@ z-index: 100;
 
 
 #welcome {
-  background-image: url(img/Component1.png);
-  background-repeat: no-repeat;
-  background-size: fill;
-  background-position: center;
-  z-index: -100;
+  
+  
   scroll-margin-top: -50px;
   height: 100vh;
   display: flex;
   
 }
+
 
 
 .kontener {
@@ -315,12 +314,18 @@ z-index: 100;
  
 }
 
+.txt_welcome img {
+  width: 30vw;
+  margin-bottom: 20px;
+}
+
 .txt_welcome {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--withe);
+  color: var(--black);
   text-shadow: 0px 0px 1px black;
+  text-align: center;
   
 }
 .txt_welcome h1 {
@@ -331,6 +336,8 @@ z-index: 100;
   font-style: italic;
   font-weight: 600;
 }
+
+
 section {
   scroll-margin-top: 100px;
 
@@ -493,9 +500,7 @@ OFRTA
 zakres pomocy
   */
 
-#zakres_pomocy {
-  background-color: #F2F5FF;
-}
+
 
 
 .zakres {
@@ -712,8 +717,8 @@ kontakt
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  color: whitesmoke;
-  background-color: var(--blue);
+  color: var(--black);
+  background-color: var(--withe);
      
 }
 @media screen and (max-width: 800px) {
@@ -734,7 +739,7 @@ svg {
 }
 .lewy_opis svg {
   height: 60px;
-  fill: whitesmoke;
+  fill: var(--black);
   stroke-width: 5px;
   padding-left: 30px;
   
@@ -752,7 +757,7 @@ svg {
 }
 
 .kontener_dane{
-  background-color: var(--yelow);
+  background-color: var(--withe);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -809,8 +814,8 @@ slideshow
 
 .card {
   position: relative;
-  border-left: solid 20px #3B5DF0;
-  border-right: solid 20px #3B5DF0;
+  border-left: solid 20px var(--withe);
+  border-right: solid 20px var(--withe);
   width: 700px;
   height: 400px;
   overflow: hidden;
@@ -924,7 +929,7 @@ slideshow
 @media screen and (max-width: 800px) {
   .card {
     width: 100vw;
-    border: solid 10px #3B5DF0;
+    border: solid 10px var(--withe);
     border-bottom: none;
   }
 }
@@ -940,18 +945,18 @@ stopa
   height: 20px;
   align-items: center;
   font-size: xx-small;
-  background-color: var(--blue);
+  background-color: var(--withe);
   justify-content: center;
   color: var(--withe);
 
 }
 .footer a {
   text-decoration: none;
-  color: var(--withe);
+  color: var(--black);
 
 }
 
 .footer a:hover {
-  color: var(--withe);
+  color: var(--black);
   
 }
