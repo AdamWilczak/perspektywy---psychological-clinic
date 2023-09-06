@@ -456,6 +456,7 @@ OFRTA
 
 }
 
+
 .bg-one,
       .bg-one ~ .content span{
       background-color:#7FB6BF;
@@ -559,47 +560,72 @@ OFRTA
 .tabs-box input[type="checkbox"]:checked ~ i.fa-chevron-circle-down{
 transform:rotate(180deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+ 
 
 /* 
 zakres pomocy
   */
+
+.zakres_koment{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
 
 
 
 
 .zakres {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+ }
+
+.kategoria1{
+  display: flex;
+  border: solid black 1px;
+  flex-direction: column;
+  
+}
+
+.withArt{
+  width: 100%;
+  color: #f9faf9; 
+  font-size: medium;
+}
+
+
+.art1{
+  background-image: url(img/forArticles/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120px;
+  
+  
+}
+.art2{
+  background-image: url(img/forArticles/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120px;
+  
+}
+
+.art3{
+  background-image: url(img/forArticles/5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120px;
+  
+}
+
+.art4{
+  background-image: url(img/forArticles/6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120px;
   
 }
 
@@ -611,21 +637,13 @@ zakres pomocy
 }
 
 
-.txt_zakres{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
 
 
 .button_zakres{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 45vw;
-  height: 60px;
+  
   border: solid 1px;
   border-color: #7FB6BF;
   border-radius: 15px;
@@ -642,8 +660,6 @@ zakres pomocy
   }
 }
 
-
-
 .button_zakres:hover{
   background-color:#9bb9e8 ;
   color: var(--blue);
@@ -653,16 +669,7 @@ zakres pomocy
   background-color: #8cdef6;
 }
 
-.zakres_koment{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 
-.zakres_koment p {
-  font-weight: bold;
-  margin-top: 15px;
-}
 
 
 
@@ -736,14 +743,12 @@ anna i joanna
 .accordion2 {
   display: flex;
   background-color: #8cdef6;
-  color: var(--withe);
   cursor: pointer;
   padding: 18px;
-  width: 100%;
   text-align:justify;
   border: none;
   outline: none;
-  transition: 1s;
+  transition: 3s;
   justify-content: space-between;
   align-items: center;
     
