@@ -106,9 +106,7 @@ h2 {
   padding-right: 30px;
 }
 
-.kontener_dane{
-  flex-direction: column;
-}
+
 
 .kontener_dane p{
   font-size: 12px;
@@ -118,11 +116,6 @@ h2 {
   font-size: 12px;
 }
 
-.card {
-  width: 100vw;
-  border: solid 10px #3B5DF0;
-  border-bottom: none;
-}
 
 .txt_welcome img {
   width: 60vw;
