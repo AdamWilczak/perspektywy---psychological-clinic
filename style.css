@@ -64,11 +64,12 @@ h3 {
   color: var(--black);
   border-bottom: solid #d1d1d1 1px;
 }
-.logo_i_nazwa {
+.logo {
   display: flex;
   align-items: center;
   line-height: 200%;
   color: var(--blue);
+  
 }
 .logotop {
   stroke: var(--blue);
@@ -77,6 +78,9 @@ h3 {
   opacity: 0.8;
   height: 80px;
   margin-bottom: 5px;
+}
+.nazwa {
+  color: var(--black);
 }
 
 @media screen and (max-width: 800px) {
@@ -527,33 +531,81 @@ zakres pomocy
   filter: saturate(0.5);
   background-color: #180155;
   color: white;
+  
 }
 
 .withArt:hover {
   filter: saturate(1);
 }
+
+.withArt p{
+  color: black;
+  background-color: whitesmoke;
+  width: 100%;
+  text-align: center;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
 .marker {
   background-color: var(--withe);
+  
 }
 
 .art1 {
-  background-image: url(img/forArticles/4.jpg);
+  background-image: url(img/forArticles/1.jpg);
+  
 }
 .art2 {
   background-image: url(img/forArticles/2.jpg);
 }
 
 .art3 {
-  background-image: url(img/forArticles/5.jpg);
+  background-image: url(img/forArticles/3.jpg);
 }
 
 .art4 {
-  background-image: url(img/forArticles/6.jpg);
+  background-image: url(img/forArticles/4.jpg);
 }
 
 .art5 {
+  background-image: url(img/forArticles/5.jpg);
+}
+
+.art6 {
+  background-image: url(img/forArticles/6.jpg);
+}
+
+.art7 {
+  background-image: url(img/forArticles/7.jpg);
+}
+
+.art8 {
   background-image: url(img/forArticles/8.jpg);
 }
+
+.art9 {
+  background-image: url(img/forArticles/9.jpg);
+}
+
+.art10 {
+  background-image: url(img/forArticles/10.jpg);
+}
+
+.art11 {
+  background-image: url(img/forArticles/11.jpg);
+}
+
+.art12 {
+  background-image: url(img/forArticles/12.jpg);
+}
+
+.art13 {
+  background-image: url(img/forArticles/13.jpg);
+}
+
 
 @media screen and (max-width: 800px) {
   .zakres {
